@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(6, 126, 150);
+}
+html {
+  font-size: 16px;
+}
+.label {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgba(111, 196, 245, 0.5);
+  box-shadow: 0 0 3px 4px rgba(111, 196, 245, 0.6);
+  margin: 30px auto;
+  padding: 8px 7px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.component {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px 5px;
+  box-shadow: 0 0 3px 1px rgb(227, 214, 216);
+}
+.header {
+  background-color: rgba(247, 91, 120, 0.2);
+}
+.header h4 {
+  font-weight: 600;
+  margin: 1px 0px -2px 0px;
+}
+.divider {
+  border-bottom: 3px solid rgb(21, 179, 223);
+  margin: 2px 0px;
+  clear: right;
+}
+.bold {
+  font-weight: bold;
+  margin: 8px 0px;
+}
+.right {
+  float: right;
+  margin: 0px 0px;
+}
+
+.amout-serving {
+  margin-top: 2px;
+  background-color: rgb(240, 240, 95, 0.2);
+  border: none;
+}
+.amout-serving h5 {
+  margin: 5px 0px 12px;
+}
+.total-fat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.daily-value {
+  background-color: rgba(32, 214, 214, 0.2);
+  width: 300px;
+}
+.daily-value p {
+  margin: 10px 0px;
+}
+.value {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 11.5px;
+  background-color: rgba(155, 238, 206, 0.603);
+  text-align: right;
+  width: 72px;
+}
+.value .right {
+  font-size: 0.6rem;
+}
+.min {
+  margin-top: -6px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.2);
+}
+.dbl-indent {
+  margin-left: 2em !important;
+}
+
+.protein {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.protein .value {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 40px;
+}
+.protein-value {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 300px;
+  background-color: rgba(204, 202, 202, 0.32);
+}
+.note {
+  font-size: .6rem;
+  margin:1px 0px;
+  padding:0px 8px;
+  text-indent: -8px;
+}
